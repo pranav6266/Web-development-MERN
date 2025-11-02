@@ -1,0 +1,28 @@
+body {
+    background-color: aquamarine;
+    background-image: url(../Images/ani_bg.gif);
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* background-position: right bottom; */
+    /* background-position: 100px 200px; */
+    /* background-position: 50% 50%; */
+
+    background-position: center;
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: 1100px 200px; */
+    /* background-size: 100% 100%; */
+    background-size: 75vw 50vh;
+
+
+
+
+}
+
+p {
+    color: green;
+    font-size: xx-large;
+}

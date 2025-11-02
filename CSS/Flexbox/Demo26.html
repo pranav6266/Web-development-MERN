@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        .navigation{
+            display: flex;
+            flex-direction: row;
+            height: 300px;
+            justify-content: space-between;
+        }
+
+        .navigation>img{
+            width: 200px;
+            height: 100px;
+        }
+
+        .navigation>ul{
+            list-style-type: none;
+            display: flex;
+            
+        }
+
+        .navigation a{
+            text-decoration: none;
+            display: block;
+            padding: 15px 20px;
+
+        }
+
+        @media screen and (min-width:768px) and (max-width:991px){
+            .navigation{
+                justify-content: center;
+            }
+        }
+
+         @media screen and (max-width:767px){
+            .navigation img{
+                display: none;
+            }
+            .navigation > ul{
+                flex-direction: column;
+                text-align: center;
+                height: 100%;
+                width: 100%;
+                justify-content: center;
+                padding: 0;
+                margin: 0;
+            }
+            ul>li{
+                margin: 2px;
+                background-color: aqua;
+            }
+        }
+    </style>
+</head>
+<body>
+    <Nav class="navigation">
+        <img src="../../images/the_rock.jpg" alt="">
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+        </ul>
+    </Nav>
+</body>
+</html>

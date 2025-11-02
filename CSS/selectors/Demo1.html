@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors 1</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap" rel="stylesheet">
+    <style type="text/css">
+        /* Universal Selector */
+        *{
+            font-family: "Manufacturing Consent", system-ui;
+        }
+
+        /* ID Selector */
+        #myDiv{
+            background-color: aliceblue;
+        }
+
+        /* Class Selector */
+        .btnClass{
+            background-color: green;
+            padding: 10px;
+            color: beige;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: larger;
+            border-radius: 30px;
+        }
+
+        .fontClass{
+            font-family:monospace;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="myDiv">Selectors</h1>
+    <h1 class="fontClass">Css Demo</h1>
+    <h1>Hello World!!!</h1>
+
+    <div>
+        <!--  -->
+        <button type="button" class="btnClass fontClass">Button</button> 
+        <input type="submit" class="btnClass"></button>
+        <input type="reset" class="btnClass"></button>
+    </div>
+</body>
+</html>

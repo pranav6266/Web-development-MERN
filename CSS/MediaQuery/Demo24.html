@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MQ 3</title>
+    <style>
+        @media screen and (max-width:575px){
+            body{
+                background-color: red;
+            }
+                 }
+            #xl, #l, #m, #s{
+                display: none;
+            }
+            #es {
+                display: block;
+        }
+        
+        @media screen and (min-width:576px) and (max-width:767px){
+            body{
+                background-color: yellow;
+            }
+            #xl, #l, #m, #es {
+                display: none;
+            }
+            #s{
+                display: block;
+            }
+    }
+        @media screen and (min-width:768px) and (max-width:991px){
+            body{
+                background-color: navy;
+            }
+            #xl, #l, #s, #es{
+                display: none;
+            }
+            #m{
+                display: block;
+            }
+        }
+        @media screen and (min-width:992px) and (max-width:1199px){
+            body{
+                background-color: green;
+            }
+            #xl, #m, #s, #es{
+                display: none;
+            }
+            #l{
+                display: block;
+            }
+        }
+        @media screen and (min-width:1200px){
+            body{
+                background-color: orange;
+            }
+            #xl{
+                display: block;
+            }
+            #l, #m, #s, #es{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="xl">
+        EXTRA LARGE DEVICES
+    </div>
+    <div id="l">
+        LARGE DEVICES
+    </div>
+    <div id="m">
+        MEDIUM SIZE DEVICES
+    </div>
+    <div id="s">
+        SMALL DEVICES
+    </div>
+    <div id="es">
+        EXTRA SMALL DEVICES
+    </div>
+</body>
+</html>

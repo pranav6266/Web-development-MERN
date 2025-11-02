@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Page 9</title>
+</head>
+<body>
+    <form>
+    <table border="1px" width="700px" align="center" cellspacing="0px">
+        <tbody>
+            <tr>
+                <td>User Name</td>
+                <td>
+                    <input type="text" name="unm"
+                     placeholder="Enter your name" maxlength="20" minlength="2" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" name="pwd"
+                     placeholder="Enter your password"/>
+                </td>
+            </tr>
+            <tr>
+                <td>User Mail</td>
+                <td>
+                    <input type="email" name="mailId" placeholder="Enter mail id"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                    <input type="date" name="dob" min="2024-10-15" max="2025-10-15"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Date / Time</td>
+                <td>
+                    <input type="datetime-local" name="date"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gen" required/>Male
+                    <input type="radio" name="gen"/>Female
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td>
+                    <input type="checkbox" name="hobb1"/>Playing Cricket
+                    <input type="checkbox" name="hobb2"/>Singing
+                    <input type="checkbox" name="hobb3"/>Swimming
+                    <input type="checkbox" name="hobb4"/>Reading
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td>
+                    <input type="tel" name="tel"/>
+                </td>
+            </tr>
+            <tr>
+                <td>CGPA</td>
+                <td>
+                    <input type="number" name="cgpa" min="1" max="10"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Qualification</td>
+                <td>
+                    <select>
+                        <option disabled selected>~~Select~~</option>
+                        <option>BTech</option>
+                        <option>BBA</option>
+                        <option>BCom</option>
+                        <option>MBA</option>
+                        <option>MTech</option>
+                        <option>BCA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>City Name</td>
+                <td>
+                    <select>
+                        <option disabled selected>~~Select~~</option>
+                            <optgroup label="UP">
+                            <option>Kanpur</option>
+                            <option>Agra</option>
+                            <option>Lucknow</option>
+                        </optgroup>  
+                        <optgroup label="MP">     
+                            <option>Sagar</option>
+                            <option>Indore</option>
+                            <option>Bhopal</option>
+                        </optgroup> 
+                            <optgroup label="Rajasthan">   
+                            <option>Kota</option>
+                            <option>Udaipur</option>
+                            <option>Jaipur</option>
+                        </optgroup>    
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>University Names</td>
+                <td>
+                    <input type="text" list="mylist"/>
+                    <datalist id="mylist">
+                        <option>AKTU</option>
+                        <option>CSJMU</option>
+                        <option>LPU</option>
+                        <option>PU</option>
+                        <option>CU</option>
+                        <option>VIT</option>
+                        <option>KIIT</option>
+                        <option>SMU</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>Range</td>
+                <td>
+                    <input type="range" name="range"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td>
+                    <input type="color" name="color"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Search</td>
+                <td>
+                    <input type="search" name="search"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Hidden Value</td>
+                <td>
+                    <input type="hidden" name="hide" value="EMP1001"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Month</td>
+                <td>
+                    <input type="month" name="month"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Week</td>
+                <td>
+                    <input type="week" name="week"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Upload file</td>
+                <td>
+                    <input type="file" name="fileupload" accept=".pdf,.jpg" multiple/>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea rows="5" cols="30"></textarea>
+                </td>
+            </tr>
+             <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" />
+                    <input type="reset" />
+                    <input type="button" value="Button"/>
+                    
+                    <button type="submit">
+                        &#128512; Login 
+                    </button>
+                    <input type="image" src="images/header.jpeg" 
+                    width="100px" height="25px" value="Submit"/>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+    </form>
+</body>
+</html>

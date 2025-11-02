@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox 1</title>
+    <style type="text/css">
+      .container {
+        border: 1px solid red;
+        width: 700px;
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly; 
+        align-items:center;
+        /* flex-wrap: wrap-reverse; */
+        /* flex-flow: row wrap; */
+        /* align-content: center; */
+      }
+
+      .container>div{
+        width: 100px;
+        height: 100px;
+        border: 1px solid navy;
+      }
+
+
+      .container>:nth-child(even){
+        background-color: greenyellow;
+      }
+
+      .container>:nth-child(odd){
+        background-color: dodgerblue;
+      }
+
+      #d1{
+        order:1;
+        /* flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100px; */
+        flex: 1 1 200px;
+      }
+       #d2{
+        order:2;
+        flex-grow: 1;
+      }
+       #d3{
+        order:3;
+        flex-grow: 1;
+      }
+       #d4{
+        order:4;
+        flex-grow: 1;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="d1">Div 1</div>
+      <div id="d2">Div 2</div>
+      <div id="d3">Div 3</div>
+      <div id="d4">Div 4</div>
+      
+    </div>
+  </body>
+</html>

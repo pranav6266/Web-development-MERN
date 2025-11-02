@@ -1,0 +1,15 @@
+body{
+    background-color: cyan;
+    background-image: url("../images/header.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-position: center top;
+    /* background-position: 100px 300px; */
+    /* background-position: 50% 50%; */
+
+    /* background-size: contain; */
+    /* background-size: 100% 100%; */
+    background-size: 100vw 100vh;
+
+}

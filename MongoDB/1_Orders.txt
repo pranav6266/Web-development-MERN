@@ -1,0 +1,160 @@
+Note :  Create a new Collection and save below records in to it.  
+--------------------------------------------------------------------
+
+
+[
+  {
+    "order_id": 1001,
+    "customer_name": "John Doe",
+    "email": "john.doe@example.com",
+    "product": "Laptop",
+    "category": "Electronics",
+    "quantity": 1,
+    "price": 1200.99,
+    "order_date": "2024-02-01T10:30:00Z",
+    "status": "Shipped"
+  },
+  {
+    "order_id": 1002,
+    "customer_name": "Alice Smith",
+    "email": "alice.smith@example.com",
+    "product": "Smartphone",
+    "category": "Electronics",
+    "quantity": 2,
+    "price": 699.99,
+    "order_date": "2024-02-02T14:15:00Z",
+    "status": "Processing"
+  },
+  {
+    "order_id": 1003,
+    "customer_name": "Robert Brown",
+    "email": "robert.brown@example.com",
+    "product": "Desk Chair",
+    "category": "Furniture",
+    "quantity": 1,
+    "price": 150.75,
+    "order_date": "2024-02-03T09:45:00Z",
+    "status": "Delivered"
+  },
+  {
+    "order_id": 1004,
+    "customer_name": "Emily Davis",
+    "email": "emily.davis@example.com",
+    "product": "Headphones",
+    "category": "Electronics",
+    "quantity": 1,
+    "price": 89.99,
+    "order_date": "2024-02-04T11:30:00Z",
+    "status": "Shipped"
+  },
+  {
+    "order_id": 1005,
+    "customer_name": "Michael Johnson",
+    "email": "michael.johnson@example.com",
+    "product": "Running Shoes",
+    "category": "Footwear",
+    "quantity": 1,
+    "price": 120.00,
+    "order_date": "2024-02-05T16:10:00Z",
+    "status": "Cancelled"
+  },
+  {
+    "order_id": 1006,
+    "customer_name": "Sarah Wilson",
+    "email": "sarah.wilson@example.com",
+    "product": "Bluetooth Speaker",
+    "category": "Electronics",
+    "quantity": 1,
+    "price": 45.50,
+    "order_date": "2024-02-06T12:05:00Z",
+    "status": "Processing"
+  },
+  {
+    "order_id": 1007,
+    "customer_name": "David Clark",
+    "email": "david.clark@example.com",
+    "product": "Smart Watch",
+    "category": "Electronics",
+    "quantity": 1,
+    "price": 199.99,
+    "order_date": "2024-02-07T13:25:00Z",
+    "status": "Shipped"
+  },
+  {
+    "order_id": 1008,
+    "customer_name": "Emma Harris",
+    "email": "emma.harris@example.com",
+    "product": "Bookshelf",
+    "category": "Furniture",
+    "quantity": 1,
+    "price": 250.00,
+    "order_date": "2024-02-08T17:40:00Z",
+    "status": "Delivered"
+  },
+  {
+    "order_id": 1009,
+    "customer_name": "James White",
+    "email": "james.white@example.com",
+    "product": "Wireless Mouse",
+    "category": "Electronics",
+    "quantity": 1,
+    "price": 35.99,
+    "order_date": "2024-02-09T18:30:00Z",
+    "status": "Shipped"
+  },
+  {
+    "order_id": 1010,
+    "customer_name": "Olivia Martin",
+    "email": "olivia.martin@example.com",
+    "product": "Treadmill",
+    "category": "Fitness",
+    "quantity": 1,
+    "price": 999.99,
+    "order_date": "2024-02-10T10:00:00Z",
+    "status": "Processing"
+  },
+  {
+    "order_id": 1011,
+    "customer_name": "Daniel Scott",
+    "email": "daniel.scott@example.com",
+    "product": "Coffee Maker",
+    "category": "Appliances",
+    "quantity": 1,
+    "price": 79.99,
+    "order_date": "2024-02-11T09:20:00Z",
+    "status": "Shipped"
+  },
+  {
+    "order_id": 1012,
+    "customer_name": "Sophia Walker",
+    "email": "sophia.walker@example.com",
+    "product": "Tablet",
+    "category": "Electronics",
+    "quantity": 1,
+    "price": 320.99,
+    "order_date": "2024-02-12T15:35:00Z",
+    "status": "Delivered"
+  },
+  {
+    "order_id": 1013,
+    "customer_name": "William Lewis",
+    "email": "william.lewis@example.com",
+    "product": "Gaming Console",
+    "category": "Electronics",
+    "quantity": 1,
+    "price": 499.99,
+    "order_date": "2024-02-13T16:50:00Z",
+    "status": "Processing"
+  },
+  {
+    "order_id": 1014,
+    "customer_name": "Ella Young",
+    "email": "ella.young@example.com",
+    "product": "Yoga Mat",
+    "category": "Fitness",
+    "quantity": 1,
+    "price": 25.50,
+    "order_date": "2024-02-14T08:15:00Z",
+    "status": "Shipped"
+  }
+]

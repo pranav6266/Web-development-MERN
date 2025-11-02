@@ -1,0 +1,502 @@
+db.mangoes.insertMany ([
+    {
+        "mango_id": 1,
+        "variety": "Dasheri",
+        "weight": 373,
+        "region": "Pakistan",
+        "price_per_kg": 5.2,
+        "sweetness_level": 6,
+        "harvest_date": "2024-03-14",
+        "farmer": "Antonio Williams"
+    },
+    {
+        "mango_id": 2,
+        "variety": "Badami",
+        "weight": 388,
+        "region": "Pakistan",
+        "price_per_kg": 5.15,
+        "sweetness_level": 9,
+        "harvest_date": "2024-04-26",
+        "farmer": "Abigail Roberson"
+    },
+    {
+        "mango_id": 3,
+        "variety": "Tommy Atkins",
+        "weight": 443,
+        "region": "Florida",
+        "price_per_kg": 6.78,
+        "sweetness_level": 7,
+        "harvest_date": "2024-08-29",
+        "farmer": "Alan Martin"
+    },
+    {
+        "mango_id": 4,
+        "variety": "Kent",
+        "weight": 348,
+        "region": "Tamil Nadu",
+        "price_per_kg": 3.96,
+        "sweetness_level": 8,
+        "harvest_date": "2024-07-14",
+        "farmer": "Daniel Wolfe MD"
+    },
+    {
+        "mango_id": 5,
+        "variety": "Alphonso",
+        "weight": 292,
+        "region": "Gujarat",
+        "price_per_kg": 6.89,
+        "sweetness_level": 5,
+        "harvest_date": "2024-07-14",
+        "farmer": "Katelyn Miles"
+    },
+    {
+        "mango_id": 6,
+        "variety": "Alphonso",
+        "weight": 462,
+        "region": "Tamil Nadu",
+        "price_per_kg": 6.62,
+        "sweetness_level": 6,
+        "harvest_date": "2024-01-26",
+        "farmer": "Alan Jones"
+    },
+    {
+        "mango_id": 7,
+        "variety": "Kent",
+        "weight": 487,
+        "region": "Karnataka",
+        "price_per_kg": 4.58,
+        "sweetness_level": 9,
+        "harvest_date": "2024-08-27",
+        "farmer": "Patricia Taylor"
+    },
+    {
+        "mango_id": 8,
+        "variety": "Dasheri",
+        "weight": 219,
+        "region": "Tamil Nadu",
+        "price_per_kg": 3.67,
+        "sweetness_level": 5,
+        "harvest_date": "2024-09-26",
+        "farmer": "Jeremy Moore"
+    },
+    {
+        "mango_id": 9,
+        "variety": "Alphonso",
+        "weight": 207,
+        "region": "Florida",
+        "price_per_kg": 4.91,
+        "sweetness_level": 7,
+        "harvest_date": "2024-05-06",
+        "farmer": "Marilyn Galvan DDS"
+    },
+    {
+        "mango_id": 10,
+        "variety": "Tommy Atkins",
+        "weight": 371,
+        "region": "Karnataka",
+        "price_per_kg": 6.43,
+        "sweetness_level": 5,
+        "harvest_date": "2024-09-14",
+        "farmer": "Christopher Estrada"
+    },
+    {
+        "mango_id": 11,
+        "variety": "Badami",
+        "weight": 272,
+        "region": "Karnataka",
+        "price_per_kg": 4.53,
+        "sweetness_level": 7,
+        "harvest_date": "2024-05-03",
+        "farmer": "Lisa Robinson"
+    },
+    {
+        "mango_id": 12,
+        "variety": "Kent",
+        "weight": 343,
+        "region": "Andhra Pradesh",
+        "price_per_kg": 5.51,
+        "sweetness_level": 5,
+        "harvest_date": "2024-07-18",
+        "farmer": "Vicki Munoz"
+    },
+    {
+        "mango_id": 13,
+        "variety": "Neelum",
+        "weight": 356,
+        "region": "Mexico",
+        "price_per_kg": 4.86,
+        "sweetness_level": 7,
+        "harvest_date": "2023-11-01",
+        "farmer": "Ann Larson"
+    },
+    {
+        "mango_id": 14,
+        "variety": "Kent",
+        "weight": 242,
+        "region": "Mexico",
+        "price_per_kg": 5.74,
+        "sweetness_level": 10,
+        "harvest_date": "2024-05-05",
+        "farmer": "Tanya Willis"
+    },
+    {
+        "mango_id": 15,
+        "variety": "Tommy Atkins",
+        "weight": 482,
+        "region": "Kerala",
+        "price_per_kg": 3.35,
+        "sweetness_level": 10,
+        "harvest_date": "2024-07-26",
+        "farmer": "Deborah Estrada"
+    },
+    {
+        "mango_id": 16,
+        "variety": "Neelum",
+        "weight": 327,
+        "region": "Gujarat",
+        "price_per_kg": 4.6,
+        "sweetness_level": 10,
+        "harvest_date": "2024-02-03",
+        "farmer": "Joshua Crawford"
+    },
+    {
+        "mango_id": 17,
+        "variety": "Kesar",
+        "weight": 462,
+        "region": "Tamil Nadu",
+        "price_per_kg": 5.77,
+        "sweetness_level": 6,
+        "harvest_date": "2024-05-17",
+        "farmer": "Debbie Osborn"
+    },
+    {
+        "mango_id": 18,
+        "variety": "Neelum",
+        "weight": 323,
+        "region": "Florida",
+        "price_per_kg": 6.44,
+        "sweetness_level": 8,
+        "harvest_date": "2024-02-02",
+        "farmer": "Diana White"
+    },
+    {
+        "mango_id": 19,
+        "variety": "Dasheri",
+        "weight": 354,
+        "region": "Maharashtra",
+        "price_per_kg": 6.57,
+        "sweetness_level": 6,
+        "harvest_date": "2024-06-05",
+        "farmer": "Nicole Blackwell"
+    },
+    {
+        "mango_id": 20,
+        "variety": "Tommy Atkins",
+        "weight": 343,
+        "region": "Mexico",
+        "price_per_kg": 6.9,
+        "sweetness_level": 6,
+        "harvest_date": "2023-11-03",
+        "farmer": "Bryan Benson"
+    },
+    {
+        "mango_id": 21,
+        "variety": "Kent",
+        "weight": 256,
+        "region": "Tamil Nadu",
+        "price_per_kg": 5.65,
+        "sweetness_level": 6,
+        "harvest_date": "2023-11-20",
+        "farmer": "Jennifer Washington"
+    },
+    {
+        "mango_id": 22,
+        "variety": "Kesar",
+        "weight": 474,
+        "region": "Pakistan",
+        "price_per_kg": 4.54,
+        "sweetness_level": 9,
+        "harvest_date": "2024-03-20",
+        "farmer": "Nicole Jones"
+    },
+    {
+        "mango_id": 23,
+        "variety": "Banganapalli",
+        "weight": 310,
+        "region": "Veracruz",
+        "price_per_kg": 6.66,
+        "sweetness_level": 5,
+        "harvest_date": "2024-03-15",
+        "farmer": "Lynn Jefferson"
+    },
+    {
+        "mango_id": 24,
+        "variety": "Kesar",
+        "weight": 205,
+        "region": "Gujarat",
+        "price_per_kg": 4.02,
+        "sweetness_level": 8,
+        "harvest_date": "2023-12-25",
+        "farmer": "Shawn Richard"
+    },
+    {
+        "mango_id": 25,
+        "variety": "Neelum",
+        "weight": 212,
+        "region": "Kerala",
+        "price_per_kg": 3.13,
+        "sweetness_level": 6,
+        "harvest_date": "2023-11-15",
+        "farmer": "Douglas Anderson"
+    },
+    {
+        "mango_id": 26,
+        "variety": "Tommy Atkins",
+        "weight": 329,
+        "region": "Karnataka",
+        "price_per_kg": 5.86,
+        "sweetness_level": 6,
+        "harvest_date": "2024-08-27",
+        "farmer": "Cody Brown"
+    },
+    {
+        "mango_id": 27,
+        "variety": "Badami",
+        "weight": 451,
+        "region": "Pakistan",
+        "price_per_kg": 5.39,
+        "sweetness_level": 7,
+        "harvest_date": "2024-07-20",
+        "farmer": "David Ortega"
+    },
+    {
+        "mango_id": 28,
+        "variety": "Tommy Atkins",
+        "weight": 418,
+        "region": "Pakistan",
+        "price_per_kg": 6.5,
+        "sweetness_level": 5,
+        "harvest_date": "2024-01-29",
+        "farmer": "Sara Nicholson"
+    },
+    {
+        "mango_id": 29,
+        "variety": "Badami",
+        "weight": 484,
+        "region": "Maharashtra",
+        "price_per_kg": 6.38,
+        "sweetness_level": 10,
+        "harvest_date": "2024-03-26",
+        "farmer": "David Thomas"
+    },
+    {
+        "mango_id": 30,
+        "variety": "Neelum",
+        "weight": 398,
+        "region": "Andhra Pradesh",
+        "price_per_kg": 3.24,
+        "sweetness_level": 10,
+        "harvest_date": "2023-11-21",
+        "farmer": "Brittany Davis"
+    },
+    {
+        "mango_id": 31,
+        "variety": "Langra",
+        "weight": 415,
+        "region": "Maharashtra",
+        "price_per_kg": 4.38,
+        "sweetness_level": 5,
+        "harvest_date": "2024-01-03",
+        "farmer": "Alyssa Marshall"
+    },
+    {
+        "mango_id": 32,
+        "variety": "Dasheri",
+        "weight": 358,
+        "region": "Pakistan",
+        "price_per_kg": 5.58,
+        "sweetness_level": 6,
+        "harvest_date": "2023-11-12",
+        "farmer": "Jessica Duran"
+    },
+    {
+        "mango_id": 33,
+        "variety": "Tommy Atkins",
+        "weight": 352,
+        "region": "Andhra Pradesh",
+        "price_per_kg": 4.86,
+        "sweetness_level": 10,
+        "harvest_date": "2024-03-19",
+        "farmer": "Michael Martinez"
+    },
+    {
+        "mango_id": 34,
+        "variety": "Tommy Atkins",
+        "weight": 447,
+        "region": "Karnataka",
+        "price_per_kg": 6.46,
+        "sweetness_level": 5,
+        "harvest_date": "2024-10-17",
+        "farmer": "Leslie Booker"
+    },
+    {
+        "mango_id": 35,
+        "variety": "Badami",
+        "weight": 445,
+        "region": "Maharashtra",
+        "price_per_kg": 5.64,
+        "sweetness_level": 10,
+        "harvest_date": "2024-01-20",
+        "farmer": "Julie Hill"
+    },
+    {
+        "mango_id": 36,
+        "variety": "Badami",
+        "weight": 316,
+        "region": "Gujarat",
+        "price_per_kg": 5.22,
+        "sweetness_level": 7,
+        "harvest_date": "2024-07-03",
+        "farmer": "Bradley Smith"
+    },
+    {
+        "mango_id": 37,
+        "variety": "Alphonso",
+        "weight": 292,
+        "region": "Andhra Pradesh",
+        "price_per_kg": 5.09,
+        "sweetness_level": 8,
+        "harvest_date": "2024-06-14",
+        "farmer": "Gregory Schneider"
+    },
+    {
+        "mango_id": 38,
+        "variety": "Dasheri",
+        "weight": 500,
+        "region": "Tamil Nadu",
+        "price_per_kg": 6.54,
+        "sweetness_level": 7,
+        "harvest_date": "2023-12-28",
+        "farmer": "Francisco Shaw"
+    },
+    {
+        "mango_id": 39,
+        "variety": "Langra",
+        "weight": 470,
+        "region": "Gujarat",
+        "price_per_kg": 6.22,
+        "sweetness_level": 6,
+        "harvest_date": "2024-03-19",
+        "farmer": "Stephen Schultz"
+    },
+    {
+        "mango_id": 40,
+        "variety": "Kesar",
+        "weight": 487,
+        "region": "Kerala",
+        "price_per_kg": 6.79,
+        "sweetness_level": 9,
+        "harvest_date": "2024-10-03",
+        "farmer": "Stephanie Rodriguez"
+    },
+    {
+        "mango_id": 41,
+        "variety": "Kent",
+        "weight": 462,
+        "region": "Maharashtra",
+        "price_per_kg": 4.82,
+        "sweetness_level": 8,
+        "harvest_date": "2024-06-21",
+        "farmer": "Carl Clark"
+    },
+    {
+        "mango_id": 42,
+        "variety": "Banganapalli",
+        "weight": 232,
+        "region": "Mexico",
+        "price_per_kg": 6.08,
+        "sweetness_level": 6,
+        "harvest_date": "2024-04-14",
+        "farmer": "Ann Lester"
+    },
+    {
+        "mango_id": 43,
+        "variety": "Banganapalli",
+        "weight": 460,
+        "region": "Gujarat",
+        "price_per_kg": 5.04,
+        "sweetness_level": 7,
+        "harvest_date": "2024-01-16",
+        "farmer": "Christopher Rodriguez"
+    },
+    {
+        "mango_id": 44,
+        "variety": "Badami",
+        "weight": 472,
+        "region": "Karnataka",
+        "price_per_kg": 6.77,
+        "sweetness_level": 7,
+        "harvest_date": "2024-07-22",
+        "farmer": "Vanessa Henderson"
+    },
+    {
+        "mango_id": 45,
+        "variety": "Dasheri",
+        "weight": 445,
+        "region": "Pakistan",
+        "price_per_kg": 5.69,
+        "sweetness_level": 8,
+        "harvest_date": "2023-11-24",
+        "farmer": "Eric Baker"
+    },
+    {
+        "mango_id": 46,
+        "variety": "Badami",
+        "weight": 204,
+        "region": "Gujarat",
+        "price_per_kg": 5.2,
+        "sweetness_level": 5,
+        "harvest_date": "2024-10-16",
+        "farmer": "Erika Bradford"
+    },
+    {
+        "mango_id": 47,
+        "variety": "Haden",
+        "weight": 361,
+        "region": "Andhra Pradesh",
+        "price_per_kg": 4.6,
+        "sweetness_level": 8,
+        "harvest_date": "2024-01-01",
+        "farmer": "Derrick Robertson"
+    },
+    {
+        "mango_id": 48,
+        "variety": "Haden",
+        "weight": 291,
+        "region": "Gujarat",
+        "price_per_kg": 3.56,
+        "sweetness_level": 8,
+        "harvest_date": "2024-02-15",
+        "farmer": "Joshua Williams"
+    },
+    {
+        "mango_id": 49,
+        "variety": "Badami",
+        "weight": 456,
+        "region": "Tamil Nadu",
+        "price_per_kg": 3.07,
+        "sweetness_level": 6,
+        "harvest_date": "2024-08-25",
+        "farmer": "Rachel Carter"
+    },
+    {
+        "mango_id": 50,
+        "variety": "Tommy Atkins",
+        "weight": 265,
+        "region": "Kerala",
+        "price_per_kg": 3.52,
+        "sweetness_level": 8,
+        "harvest_date": "2023-11-11",
+        "farmer": "Mr. Jesse Arnold"
+    }
+])

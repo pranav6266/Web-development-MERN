@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 tiles</title>
+    <style>
+        #mainbox{
+            height: 500px;
+            width: 1250px;
+            border: 5px solid red;
+            display: inline-block;
+        }
+
+        .divdim{
+            height: 300px;
+            width: 300px;
+            border: 2px solid blue;
+            display: inline-block;
+            margin: 50px;
+        }
+
+        div[class="divdim"]:hover {
+            background-color: black;
+            height: 80%;
+        }
+    </style>
+</head>
+<body>
+    <span id="mainbox">
+        <div id="box1" class="divdim">
+            BOX 1
+        </div>
+        <div id="box2" class="divdim">
+            BOX 2
+        </div>
+        <div id="box3" class="divdim">
+            BOX 3
+        </div>
+    </span>
+</body>
+</html>

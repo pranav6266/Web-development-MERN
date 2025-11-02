@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformation property</title>
+    <style type="text/css">
+        div{
+            width: 800px;
+            height: 100px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #d1,#d2{
+            width: 40%;
+            border: 2px solid red;
+            background-color: yellow;
+        }
+        #d1:hover{
+            border: 2px solid red;
+            /* transform: translate(200px,200px); */
+            transform: rotate(360deg);
+            transition: all 2s;
+        }
+        #d2:hover{
+            border: 2px solid navy;
+            transform: rotate(-360deg);
+            transition: all 2s;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <div id="d1">
+        Div 1
+    </div>
+    <div id="d2">
+        Div 2
+    </div>
+</div>
+    
+</body>
+</html>

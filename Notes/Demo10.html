@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <form method="get" action="./WebPage.html" autocomplete="off">
+
+            <table border="1px" width="500px" align="center">
+                <tbody>
+                    <tr>
+                        <td>User Name </td>
+                        <td>
+                            <input type="text" name="unm" placeholder="Enter Your Name" maxlength="10" minlength="2"
+                                required value="Sachin" readonly />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Password
+                        </td>
+                        <td>
+                            <input type="password" name="pwd" placeholder="Eg:Pass@12345" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> User Mail </td>
+                        <td>
+                            <input type="email" name="mailId" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> Date of Birth </td>
+                        <td>
+                            <input type="date" name="dob" min="2024-10-15" max="2025-06-25" />
+                        </td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td> Gender </td>
+                        <td>
+                            <input type="radio" name="gen" value="Male" required />Male
+                            <input type="radio" name="gen" value="Female" checked />Female
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> Hobbies </td>
+                        <td>
+                            <input type="checkbox" name="hobb1" value="Playing" checked />Playing
+                            <input type="checkbox" name="hobb2" value="Singing" />Singing
+                            <input type="checkbox" name="hobb3" value="Swimming" />Swimming
+                            <input type="checkbox" name="hobb4" value="Reading" />Reading
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Mobile Number
+                        </td>
+                        <td>
+                            <input type="tel" name="mobNo" disabled />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            CGPI
+                        </td>
+                        <td>
+                            <input type="number" name="cgpi" min="1" max="10" step="0.01" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Qualification
+                        </td>
+                        <td>
+                            <select name="qul">
+                                <option disabled selected>~~Select~~</option>
+                                <option>BTech</option>
+                                <option>MTech</option>
+                                <option>MBA</option>
+                                <option>BBA</option>
+                                <option disabled>BCA</option>
+                            </select>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            University Name
+                        </td>
+                        <td>
+                            <input type="text" name="uni_nm" list="mylist" />
+                            <datalist id="mylist">
+                                <option>AKTU</option>
+                                <option>CSJMU</option>
+                                <option>LPU</option>
+                                <option>PU</option>
+                                <option>CU</option>
+                                <option>VIT</option>
+                                <option>KIIT</option>
+                                <option>SMU</option>
+                            </datalist>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Range </td>
+                        <td>
+                            <input type="range" name="range" min="99" max="999" value="500" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Hidden Value</td>
+                        <td>
+                            <input type="hidden" name="hidd_val" value="Emp1005" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Upload Pic</td>
+                        <td>
+                            <input type="file" name="upd_ctrl" accept=".jpg , .pdf" multiple />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Address
+                        </td>
+                        <td>
+                            <textarea name="addrs" rows="5" cols="30" placeholder="Enter Address"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" name="subBtn" />
+                            <input type="reset" />
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+
+        </form>
+    </body>
+
+</html>

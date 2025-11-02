@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selector</title>
+    <style>
+        input[name="unm"]{
+            border:2px solid red;
+        }
+        input[type="submit"]{
+            color: rebeccapurple;
+        }
+        input[type="submit"]:hover{
+            background-color: black;
+            color: aliceblue;
+            
+        }
+        input:focus{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    
+    <input type="text" name="unm" placeholder="Enter Name"/>
+    <input type="password" name="pwd" placeholder="Enter Password"/>
+    <input type="email" name="mail_id" placeholder="Enter email address"/>
+
+    <input type="submit" name="subBtn"/>
+</body>
+</html>
